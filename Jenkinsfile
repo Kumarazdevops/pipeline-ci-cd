@@ -19,7 +19,6 @@ pipeline {
         }
         stage('Test') {
             steps {
-                //sh 'docker run --rm myimage ./run-tests.sh'
                 echo "Pass test"
             }
         }
