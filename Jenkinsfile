@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch : 'main', url: 'https://github.com/Kumarazdevops/pipeline-ci-cd.git'
+                git branch : 'feature/updates', url: 'https://github.com/Kumarazdevops/pipeline-ci-cd.git'
             }
         }
         stage('Build') {
